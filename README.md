@@ -1,1 +1,1 @@
-# comp211-python-libraries-c
+# python-libraries-c
