@@ -22,6 +22,15 @@ I compared summing one million integers using a regular Python loop and NumPy's 
 
 My biggest takeaway was that Python and C can work together, even though they are two separate languages. This allows Python to provide an accessible interface while the compiled code handles computationally intensive operations.
 
+## Benchmark Results
+I compared a regular Python loop with NumPy's np.sum() function using one million numbers (0 through 999,999). I ran each approach five times and calculated the average execution time.
+
+Python Loop: Average Execution Time 0.08406 seconds
+NumPy: Average Execution Time 0.000666 seconds
+Both methods produced the same sum: 499,999,500,000
+
+In my experiment, NumPy was approximately 126 times faster than the regular Python loop. This showed me how much faster numerical operations can be when a Python library uses optimized compiled code instead of processing each element through a Python-level loop. These results are from my particular experiment and computer, so the exact speedup may differ on other systems or with different operations.
+
 ## References
 - Python ctypes documentation: https://docs.python.org/3/library/ctypes.html
 - NumPy documentation: https://numpy.org/doc/
