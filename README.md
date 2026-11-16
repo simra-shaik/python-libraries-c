@@ -23,5 +23,5 @@ I compared summing one million integers using a regular Python loop and NumPy's 
 My biggest takeaway was that Python and C can work together, even though they are two separate languages. This allows Python to provide an accessible interface while the compiled code handles computationally intensive operations.
 
 ## References
-Python ctypes documentation: https://docs.python.org/3/library/ctypes.html
-NumPy documentation: https://numpy.org/doc/
+- Python ctypes documentation: https://docs.python.org/3/library/ctypes.html
+- NumPy documentation: https://numpy.org/doc/
